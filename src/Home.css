@@ -1,0 +1,228 @@
+.homeComntainer{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 80vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    top: 10vh;
+}
+.homePhoto{
+    /* background-color: aqua; */
+    overflow: hidden;
+    border-radius: 200px;
+    height: 93.6957624vh;
+    width: 80vh;
+    /* border-radius: 0px; */
+    position: absolute;
+    left:30vw;
+    top: 00vh;
+    animation-name: frame;
+    animation-duration: 4s;
+
+}
+@keyframes frame {
+    0%{
+        opacity: 0;
+        border-radius: 0px;
+    }
+    50%{
+        opacity: 1;
+        border-radius: 0px;
+    }
+    100%{
+        border-radius: 200px;
+    }
+}
+.homePhoto
+    img{
+    /* height: 1.17119703px; */
+    /* width: 1px; */
+    /* height: 468.478812px;
+    width: 400px; */
+    position: absolute;
+    height: 46.8478812vh;
+    width: 40vh;
+    border-radius: 0px;
+    /* position: absolute; */
+    /* left:50vw; */
+    left:10vw;
+    top: 20vh;
+    animation: zoomIn;
+    animation-duration: 2s;
+}
+.homePhoto
+    img:hover{
+        transform: scale(1.1);
+        transition: all;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+    }
+.homePhoto div{
+    display: inline-flex;
+    font-family: monospace;
+    opacity: 0.2;
+    font-size: larger;
+}
+.homeIntro{
+    position: absolute;
+    /* border: 2px solid black; */
+    width: 50vw;
+    height: 80vh;
+    top: 0vh;
+    left:0vw;
+    /* left:40vw; */
+    padding-top: 20vh;
+    padding-left: 10vh;
+}
+.htmltag{
+    font-style: italic;
+    animation: backInDown;
+    animation-duration: 2s;
+    /* position: absolute; */
+    /* top: 10vh; */
+}
+.Intro{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: name;
+    opacity: 1;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    text-shadow: 10px 10px rgba(128, 128, 128, 0.315);
+
+}
+@keyframes name {
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    80%{
+        opacity: 0.5;
+        transform: translateX(-20px);
+        transform: translateY(100px);
+    }
+    85%{
+        opacity: 0.5;
+        transform: translateX(-50px);
+    }
+    /* 90%{
+        opacity: 0.5;
+        transform: translateX(-20px);
+    }
+    95%{
+        opacity: 0.5;
+        transform: translateX(-20px);
+    } */
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+        transform: translatey(0px);
+    }
+}
+.Intro div{
+    display: inline;
+
+}
+.Intro div:hover{
+    color: yellow;
+    font-size: larger;
+    font-style: italic;
+    transition: all 0.4s ease-in-out;
+}
+.Varun{
+    animation: words;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-duration: 1s;
+}
+.arun{
+    animation: words;
+    animation-timing-function: ease;
+    animation-delay: 3.2s;
+    animation-duration: 1s;
+}
+.run{
+    animation: words;
+    animation-timing-function: ease;
+    animation-delay: 3.4s;
+    animation-duration: 1s;
+}
+.un{
+    animation: words;
+    animation-timing-function: ease;
+    animation-delay: 3.6s;
+    animation-duration: 1s;
+}
+.n{
+    animation: words;
+    animation-timing-function: ease;
+    animation-delay: 3.8s;
+    animation-duration: 1s;
+}
+.Pandey{
+    animation: words;
+    animation-timing-function: ease;
+    animation-delay: 4s;
+    animation-duration: 1s;
+}
+.andey{
+    animation: words;
+    animation-timing-function: ease;
+    animation-delay: 4.2s;
+    animation-duration: 1s;
+}
+.ndey{
+    animation: words;
+    animation-timing-function: ease;
+    animation-delay: 4.4s;
+    animation-duration: 1s;
+}
+.dey{
+    animation: words;
+    animation-timing-function: ease;
+    animation-delay: 4.6s;
+    animation-duration: 1s;
+}
+.ey{
+    animation: words;
+    animation-timing-function: ease;
+    animation-delay: 4.8s;
+    animation-duration: 1s;
+}
+.y{
+    animation: words;
+    animation-timing-function: ease;
+    animation-delay: 5s;
+    animation-duration: 1s;
+}
+@keyframes words {
+    0%{
+    color: black;
+
+    }
+    50%{
+        color: yellow;
+
+    }
+    100%{
+        color: black;
+
+    }
+}
+@media screen and (max-width: 765px){
+    .homePhoto{
+        overflow: hidden;
+        border-radius: 200px;
+        height: 93.6957624vh;
+        width: 80vh;
+        /* height: 93.6957624vh;
+        width: 80vh; */
+        /* border-radius: 0px; */
+        position: absolute;
+        left:0vw;
+        top: 30vh;
+        animation-name: frame;
+        animation-duration: 4s;
+    }
+}
