@@ -27,6 +27,8 @@
 .AboutContent{
     display: flex;
     flex-wrap: wrap;
+    animation: backInUp;
+    animation-duration: 3s;
 }
 .AboutContainer div{
     font-family: sans-serif;
