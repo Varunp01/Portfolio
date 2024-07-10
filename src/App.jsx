@@ -2,6 +2,7 @@ import './App.css'
 import 'react-loader-spinner';
 import Home from './Home';
 import About from './About';
+import Project from './Project';
 import Layout from './Layout';
 import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
 import { MutatingDots } from 'react-loader-spinner';
@@ -12,7 +13,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Layout></Layout>}>
             <Route index element={<Home></Home>} />
-            <Route path='/About' element={<About></About>} />
+            <Route path='/about' element={<About></About>} />
+            <Route path='/projects' element={<Project></Project>} />
           </Route>
         </Routes>
       </BrowserRouter>

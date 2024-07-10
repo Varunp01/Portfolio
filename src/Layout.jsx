@@ -11,7 +11,7 @@ export default function Layout(){
                 <div className="logo">
                     <div className="cover1">
                         <div className="cover2">
-                            <Link to="/"><img src="Assets\Logo.jpg" alt="logo"/></Link>
+                            <Link to="/"><img src="../Assets\Logo.jpg" alt="logo"/></Link>
                         </div>
                     </div>
                 </div>

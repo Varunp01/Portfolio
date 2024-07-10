@@ -1,0 +1,25 @@
+.projectContainer{
+    position: absolute;
+    top: 10vh;
+    height: 80vh;
+    width: 100vw;
+    left: 0vw;
+    /* background-color: cyan; */
+}
+.blockContainer{
+    position: absolute;
+    top:15vh;
+    left:25vw;
+    height: 50vh;
+    width: 50vw;
+    background-color: cyan;
+}
+.Project1{
+    position: absolute;
+    top:5vh;
+    /* left:25vw; */
+    height: 40vh;
+    width: 15vw;
+    
+    background-color: grey;    
+}
