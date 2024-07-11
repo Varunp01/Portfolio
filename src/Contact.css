@@ -1,0 +1,20 @@
+.contactContainer{
+    position: absolute;
+    top: 10vh;
+    height: 80vh;
+    width: 100vw;
+    left: 0vw;
+    /* background-color: cyan; */
+}
+.contactcontainer{
+    position: absolute;
+    top:15vh;
+    display: flex;
+    left:30vw;
+    height: 55vh;
+    width: 50vw;
+    box-shadow: 0px 0px 40px #2F3645;
+    border: 10px solid #2F3645;
+    animation: bounceInUp;
+    animation-duration: 2s;
+}

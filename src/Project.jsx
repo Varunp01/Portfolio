@@ -25,7 +25,7 @@ export default function Project() {
             </div>
             <div className="blockContainer">
                 <div className="Project1">
-                    <div className="contentImg"><img src="projects/Animation.png"></img></div>
+                    <div className="contentImg"><img src="https://i.ibb.co/x6BhKcC/Animation.png"></img></div>
                     <br></br>
                     <div className="icons">
                     <a href='' className='LIVE'><FontAwesomeIcon icon={faMobileButton} color="black"></FontAwesomeIcon></a>
@@ -33,7 +33,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="Project2">
-                    <div className="contentImg"><img src="projects/portfolio.png"></img></div>
+                    <div className="contentImg"><img src="https://i.ibb.co/7YwsKps/portfolio.png"></img></div>
                     <br></br>
                     <div className="icons">
                     <a href='' className='LIVE'><FontAwesomeIcon icon={faMobileButton} color="black"></FontAwesomeIcon></a>
@@ -41,7 +41,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="Project3">
-                    <div className="contentImg"><img src="projects/tic-tac-toe.png"></img></div>
+                    <div className="contentImg"><img src="https://i.ibb.co/0GxkrbC/tic-tac-toe.png"></img></div>
                     <br></br>
                     <div className="icons">
                     <a href='' className='LIVE'><FontAwesomeIcon icon={faMobileButton} color="black"></FontAwesomeIcon></a>
@@ -49,7 +49,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="Project4">
-                    <div className="contentImg"><img src="projects/Task-Wave.png"></img></div>
+                    <div className="contentImg"><img src="https://i.ibb.co/cK9nhqL/Task-Wave.png"></img></div>
                     <br></br>
                     <div className="icons">
                     <a href='' className='LIVE'><FontAwesomeIcon icon={faMobileButton} color="black"></FontAwesomeIcon></a>
@@ -57,7 +57,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="Project5">
-                    <div className="contentImg"><img src="projects/Spotify Clone.png"></img></div>
+                    <div className="contentImg"><img src="https://i.ibb.co/5TLKL6q/Spotify-Clone.png"></img></div>
                     <br></br>
                     <div className="icons">
                     <a href='' className='LIVE'><FontAwesomeIcon icon={faMobileButton} color="black"></FontAwesomeIcon></a>
@@ -65,7 +65,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="Project6">
-                    <div className="contentImg"><img src="projects/Weather App.png"></img></div>
+                    <div className="contentImg"><img src="https://i.ibb.co/cwH3MKZ/Weather-App.png"></img></div>
                     <br></br>
                     <div className="icons">
                     <a href='' className='LIVE'><FontAwesomeIcon icon={faMobileButton} color="black"></FontAwesomeIcon></a>
@@ -73,7 +73,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="Project7">
-                    <div className="contentImg"><img src="projects/Animal Factory.png"></img></div>
+                    <div className="contentImg"><img src="https://i.ibb.co/WKb4LyS/Animal-Factory.png"></img></div>
                     <br></br>
                     <div className="icons">
                     <a href='' className='LIVE'><FontAwesomeIcon icon={faMobileButton} color="black"></FontAwesomeIcon></a>
@@ -81,7 +81,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="Project8">
-                    <div className="contentImg"><img src="projects/Bookshelf.png"></img></div>
+                    <div className="contentImg"><img src="https://i.ibb.co/610sBdR/Bookshelf.png"></img></div>
                     <br></br>
                     <div className="icons">
                     <a href='' className='LIVE'><FontAwesomeIcon icon={faMobileButton} color="black"></FontAwesomeIcon></a>
@@ -89,7 +89,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="Project9">
-                    <div className="contentImg"><img src="projects/React Quiz.png"></img></div>
+                    <div className="contentImg"><img src="https://i.ibb.co/FWr0yFP/React-Quiz.png"></img></div>
                     <br></br>
                     <div className="icons">
                     <a href='' className='LIVE'><FontAwesomeIcon icon={faMobileButton} color="black"></FontAwesomeIcon></a>
@@ -97,7 +97,7 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="Project10">
-                    <div className="contentImg"><img src="projects/wanderlust.png"></img></div>
+                    <div className="contentImg"><img src="https://i.ibb.co/ZNth2Xg/wanderlust.png"></img></div>
                     <br></br>
                     <div className="icons">
                     <a href='' className='LIVE'><FontAwesomeIcon icon={faMobileButton} color="black"></FontAwesomeIcon></a>

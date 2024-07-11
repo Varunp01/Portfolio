@@ -4,6 +4,7 @@ import Home from './Home';
 import About from './About';
 import Project from './Project';
 import Layout from './Layout';
+import Contact from './Contact';
 import { BrowserRouter, Routes, Route, Link, Outlet } from "react-router-dom";
 import { MutatingDots } from 'react-loader-spinner';
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Route index element={<Home></Home>} />
             <Route path='/about' element={<About></About>} />
             <Route path='/projects' element={<Project></Project>} />
+            <Route path='/contact' element={<Contact></Contact>} />
           </Route>
         </Routes>
       </BrowserRouter>

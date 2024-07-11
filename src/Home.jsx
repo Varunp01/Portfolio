@@ -168,7 +168,7 @@ export default function(){
                     <div>&nbsp;JSON&nbsp;</div>
                     <div>&nbsp;&#177;&nbsp;</div>
                     <div>&nbsp;GITHUB&nbsp;</div>
-                    <img src="Assets\img.jpg" alt="MyPhoto"/>
+                    <img src="https://i.ibb.co/1bdMMC0/img.jpg" alt="MyPhoto"/>
                 </div>
             </div>
         </>
