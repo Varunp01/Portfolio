@@ -3,7 +3,33 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMailBulk, faMailForward, faPhone } from '@fortawesome/free-solid-svg-icons'
 import './Contact.css'
 import { faGoogle, faGoogleDrive, faLinkedin, faMailchimp } from "@fortawesome/free-brands-svg-icons";
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
+
+
+
 export default function Contact() {
+
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+      emailjs
+        .sendForm('service_r568v69', 'template_77swjcm', form.current, {
+          publicKey: 'shlbNfldynS6FvqKJ',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
+  
+    
     return (
         <div className="contactContainer">
             <div className="intocontainer">
@@ -25,9 +51,18 @@ export default function Contact() {
                 </h1></div>
                 <div className="htmltag">&lt;h1&gt;</div>
             </div>
-            <div className="contactcontainer">
-            <FontAwesomeIcon icon={faLinkedin} color="black"></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faGoogle} color="black"></FontAwesomeIcon>
+            <div className="blockContainer">
+                <div className="contactForm">
+                <form action="" ref={form} onSubmit={sendEmail}>
+                    <ul>
+                        <li className="half"><input type="text" name="user_name" placeholder="Name" required/></li>
+                        <li className="half"><input type="email" name="user_email" placeholder="Email" required/></li>
+                        <li><input type="text" name="subject" placeholder="subject" required/></li>
+                        <li><textarea name="message" placeholder="message" required/></li>
+                        <li><input type="submit" className="button" value="SEND"/></li>
+                    </ul>
+                </form>
+            </div>
             </div>
         </div>
     )
