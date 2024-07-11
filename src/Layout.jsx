@@ -30,7 +30,7 @@ export default function Layout() {
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <span>
                         <a className="social-icon" href="https://github.com/Varunp01"><FontAwesomeIcon icon={faGithub}></FontAwesomeIcon></a>
-                        <a className="social-icon" href="https://www.linkdin.com/in/varun-pandey-109514274"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
+                        <a className="social-icon" href="https://www.linkedin.com/in/varun-pandey-109514274/"><FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon></a>
                     </span>
                 </div>
             </div>

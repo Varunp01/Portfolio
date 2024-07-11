@@ -22,9 +22,11 @@ export default function Contact() {
         .then(
           () => {
             console.log('SUCCESS!');
+            alert("YOUR EMAIL IS SENT!");
           },
           (error) => {
             console.log('FAILED...', error.text);
+            alert("SOMETHING IS WRONG WITH THE EMAIL SERVICE...");
           },
         );
     };
@@ -55,6 +57,7 @@ export default function Contact() {
                 <div className="contactForm">
                 <form action="" ref={form} onSubmit={sendEmail}>
                     <ul>
+                        <li>THIS GOOGLE FORM WORKS. GIVE IT A TRY</li>
                         <li className="half"><input type="text" name="user_name" placeholder="Name" required/></li>
                         <li className="half"><input type="email" name="user_email" placeholder="Email" required/></li>
                         <li><input type="text" name="subject" placeholder="subject" required/></li>
