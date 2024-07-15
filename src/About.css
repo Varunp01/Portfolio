@@ -128,7 +128,7 @@
 @media screen and (max-width: 570px){
     .intocontainer{
         padding-top: 10vh;
-        padding-left: 0vh;
+        padding-left: 10vh;
     }
     .AboutContent{
         top: 23vh;

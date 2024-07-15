@@ -246,14 +246,117 @@
   .blockContainer{
     /* opacity: 0; */
     position: absolute;
-    top:45vh;
+    top:35vh;
     display: flex;
     left:10vw;
-    height: 30vh;
+    height: 40vh;
     width: 80vw;
     flex-wrap: nowrap;
     overflow: scroll;
     overflow-y: scroll;
   }
-  
+  .contentImg{
+    width: 30vw;
+    position: relative;
+    top:-2.5vh;
+    left:0vw;
+    height: 40vh;
+    box-shadow: 0px 0px 20px white;
+  }
+  .Project1 img,.Project2 img,.Project3 img,.Project4 img,.Project5 img,.Project6 img,.Project7 img,.Project8 img,.Project9 img,.Project10 img{
+    width: 30vw;
+  }
+  .Project1{
+    position: absolute;
+    top:5vh;
+    /* opacity: 0.5; */
+    /* left:25vw; */
+    height: 30vh;
+    width: 30vw;
+    margin: 2px 20px auto 20px;
+    /* background-color: #EEEDEB; */
+}
+.Project2{
+    position: absolute;
+    top:5vh;
+    /* left:17vw; */
+    left:34vw;
+    height: 30vh;
+    /* height: 40vh; */
+    width: 30vw;
+    margin: 2px 20px auto 20px;
+    /* background-color: #EEEDEB; */
+}
+.Project3{
+    position: absolute;
+    top:5vh;
+    left:68vw;
+    height: 30vh;
+    width: 30vw;
+    margin: 2px 20px auto 20px;
+    /* background-color: #EEEDEB; */
+}
+.Project4{
+    position: absolute;
+    top:5vh;
+    left:103vw;
+    height: 30vh;
+    width: 30vw;
+    margin: 2px 20px auto 20px;
+    /* background-color: #EEEDEB; */
+}
+.Project5{
+    position: absolute;
+    top:5vh;
+    left:137vw;
+    height: 30vh;
+    width: 30vw;
+    margin: 2px 20px auto 20px;
+    /* background-color: #EEEDEB; */
+}
+.Project6{
+    position: absolute;
+    top:5vh;
+    left:173vw;
+    height: 30vh;
+    width: 30vw;
+    margin: 2px 20px auto 20px;
+    /* background-color: #EEEDEB; */
+}
+.Project7{
+    position: absolute;
+    top:5vh;
+    left:207vw;
+    height: 30vh;
+    width: 30vw;
+    margin: 2px 20px auto 20px;
+    /* background-color: #EEEDEB; */
+}
+.Project8{
+    position: absolute;
+    top:5vh;
+    left:242vw;
+    height: 30vh;
+    width: 30vw;
+    margin: 2px 20px auto 20px;
+    /* background-color: #EEEDEB; */
+}
+.Project9{
+    position: absolute;
+    top:5vh;
+    left:277vw;
+    height: 30vh;
+    width: 30vw;
+    margin: 2px 20px auto 20px;
+    /* background-color: #EEEDEB; */
+}
+.Project10{
+    position: absolute;
+    top:5vh;
+    left:313vw;
+    height: 30vh;
+    width: 30vw;
+    margin: 2px 20px auto 20px;
+    /* background-color: #EEEDEB; */
+}
 }
