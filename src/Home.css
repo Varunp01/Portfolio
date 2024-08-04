@@ -210,7 +210,18 @@
 
     }
 }
-@media screen and (max-width: 765px){
+@media screen and (max-width: 854px){
+    .homeIntro{
+        position: absolute;
+        /* border: 2px solid black; */
+        width: 50vw;
+        height: 80vh;
+        top: 0vh;
+        left:0vw;
+        /* left:40vw; */
+        padding-top: 10vh;
+        padding-left: 10vh;
+    }
     .homePhoto{
         overflow: hidden;
         border-radius: 200px;
@@ -221,7 +232,7 @@
         /* border-radius: 0px; */
         position: absolute;
         left:0vw;
-        top: 30vh;
+        top: 13vh;
         animation-name: frame;
         animation-duration: 4s;
     }

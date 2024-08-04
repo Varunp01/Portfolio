@@ -10,6 +10,16 @@ body{
         opacity: 0;
     }
 }
+@media screen and (max-width: 578px){
+    .tags{
+        position: relative;
+        top: 2.5vh;
+        margin-left: 00vw;
+        margin-right: 00vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 Link{
     text-decoration: none;
 }
@@ -80,7 +90,7 @@ img{
 .tags{
     position: relative;
     top: 2.5vh;
-    margin-left: 40vw;
+    margin-left: 50vw;
     display: flex;
     flex-wrap: wrap;
     /* Link{ */
